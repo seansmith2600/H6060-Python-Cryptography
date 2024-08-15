@@ -51,9 +51,9 @@ source = [
    "*.tox\\*\\Lib\\site-packages\\cryptography",
    "*.tox/pypy/site-packages/cryptography",
 ]
-tests =[
+tests = [
    "tests/",
-   "*tests\\",
+   "*tests",
 ]
 
 [tool.coverage.report]
